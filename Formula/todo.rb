@@ -1,8 +1,8 @@
 class Todo < Formula
   desc "A todo management tool just for myself"
   homepage "https://github.com/naoty/todo"
-  url "https://github.com/naoty/todo/releases/download/0.2.0/todo.tar.gz"
-  sha256 "be20e4069c0ae49998dfc00a010ca8f5d49d26193bd0c3e8611a4bf53cac469d"
+  url "https://github.com/naoty/todo/releases/download/0.2.1/todo.tar.gz"
+  sha256 "f83c0c2a5ea09714fc463c1f779b00f289988ac425a17879ed58adf2d6f67886"
 
   def install
     bin.install "todo"
