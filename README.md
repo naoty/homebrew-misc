@@ -8,6 +8,7 @@ $ brew tap naoty/misc
 ```
 
 ## Formulae
+* [`brewery`](https://github.com/naoty/brewery): A command to generate a formula for Homebrew
 * [`flock`](https://github.com/naoty/flock): Object graph in Swift
 * [`license`](https://github.com/naoty/license): A command to generate LICENSE
 * [`table`](https://github.com/naoty/table): A command to print ASCII table from stdin
