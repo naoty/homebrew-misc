@@ -12,5 +12,6 @@ $ brew tap naoty/misc
 * [`flock`](https://github.com/naoty/flock): Object graph in Swift
 * [`git-misc`](https://github.com/naoty/git-misc): Misc scripts for git
 * [`license`](https://github.com/naoty/license): A command to generate LICENSE
+* [`nippo`](https://github.com/naoty/nippo): 日報作成スクリプト
 * [`table`](https://github.com/naoty/table): A command to print ASCII table from stdin
 * [`todo`](https://github.com/naoty/todo): A todo management tool just for myself
