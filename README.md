@@ -11,6 +11,7 @@ $ brew tap naoty/misc
 * [`brewery`](https://github.com/naoty/brewery): A command to generate a formula for Homebrew
 * [`flock`](https://github.com/naoty/flock): Object graph in Swift
 * [`git-misc`](https://github.com/naoty/git-misc): Misc scripts for git
+* [`icon`](https://github.com/naoty/icon): My icon generator
 * [`license`](https://github.com/naoty/license): A command to generate LICENSE
 * [`nippo`](https://github.com/naoty/nippo): 日報作成スクリプト
 * [`table`](https://github.com/naoty/table): A command to print ASCII table from stdin
