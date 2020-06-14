@@ -2,16 +2,16 @@
 class Todo < Formula
   desc "A TODO manager just for me"
   homepage "https://github.com/naoty/todo"
-  version "0.4.1"
+  version "0.4.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/naoty/todo/releases/download/0.4.1/todo_0.4.1_Darwin_x86_64.tar.gz"
-    sha256 "b4444dfe77902f53f3548a7e01977c58e83844a18d9f04b97df9ade477463896"
+    url "https://github.com/naoty/todo/releases/download/0.4.2/todo_0.4.2_Darwin_x86_64.tar.gz"
+    sha256 "9b5b8af51a266bde91ae17776f7099f45d97b4d146c7c4c6793827096fb2dc9e"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/naoty/todo/releases/download/0.4.1/todo_0.4.1_Linux_x86_64.tar.gz"
-      sha256 "577a3bfcd08baeda2dd7fb2a911f497773c6f71f67746e25faf75b5619b9e75f"
+      url "https://github.com/naoty/todo/releases/download/0.4.2/todo_0.4.2_Linux_x86_64.tar.gz"
+      sha256 "97403277be5dae6887cfe07cf05cc90e43dad7cc03acdd7e341ce2d4ed8649c7"
     end
   end
 
