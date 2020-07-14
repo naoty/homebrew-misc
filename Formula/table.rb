@@ -1,8 +1,8 @@
 class Table < Formula
   desc "A command to print ASCII table from stdin"
   homepage "https://github.com/naoty/table"
-  url "https://github.com/naoty/table/releases/download/0.3.0/table-0.3.0-x86_64-apple-darwin.tar.gz"
-  sha256 "76b35c34c8a7ef8304bf56077a2bfa5b015a4934b6b871d9ce41f1fd3c6dc5ea"
+  url "https://github.com/naoty/table/releases/download/0.3.1/table-0.3.1-x86_64-apple-darwin.tar.gz"
+  sha256 "0a9fa7429a31b04f452dffdb585a2e918061dc29fa6ac20273064dfd9b2b9e08"
 
   def install
     bin.install "table"
