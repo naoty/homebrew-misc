@@ -6,7 +6,7 @@ class Task < Formula
   on_macos do
     on_arm do
       url "https://github.com/naoty/task/releases/download/v0.1.3/task-darwin-arm64"
-      sha256 "08e4c9d89e145814343d141b1439832755de9b8e8b8b403fa3aa2a57ca77e489"
+      sha256 "2d13badbe4ed7548f03ca5c7cf4c346cb74112a426bf1f40fa23a31ad8b3dfa0"
 
       def install
         bin.install "task-darwin-arm64" => "task"
@@ -15,7 +15,7 @@ class Task < Formula
 
     on_intel do
       url "https://github.com/naoty/task/releases/download/v0.1.3/task-darwin-x64"
-      sha256 "129b7f367212eca26320aa54ed86e43dcefa898cae187cd01c5a04dde3d00821"
+      sha256 "6371c66611ab8ed41d8bc085e4f752e9500e3d7a9c50531f668be5b895eec4a8"
 
       def install
         bin.install "task-darwin-x64" => "task"
