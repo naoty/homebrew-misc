@@ -1,12 +1,12 @@
 class Task < Formula
   desc "Task management CLI"
   homepage "https://github.com/naoty/task"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/naoty/task/releases/download/v0.3.1/task-darwin-arm64"
-      sha256 "268db1110cb9dcaf7d06e25409d23251e65da8f1e0c618c226a1b13f61051923"
+      url "https://github.com/naoty/task/releases/download/v0.3.2/task-darwin-arm64"
+      sha256 "e9d22a9409551f3bbc0a5336949cbc783c6ff32dd2548fe1d2740358efa2e2d2"
 
       def install
         bin.install "task-darwin-arm64" => "task"
@@ -14,8 +14,8 @@ class Task < Formula
     end
 
     on_intel do
-      url "https://github.com/naoty/task/releases/download/v0.3.1/task-darwin-x64"
-      sha256 "85e9231d2774e314a2536c73a891147e5a72a4c992d1d4057852685c8f40440b"
+      url "https://github.com/naoty/task/releases/download/v0.3.2/task-darwin-x64"
+      sha256 "e8c4cb586ce8d24f71f2305cec4bfda37db9a2c62da8e1424dbd32794810d04c"
 
       def install
         bin.install "task-darwin-x64" => "task"
